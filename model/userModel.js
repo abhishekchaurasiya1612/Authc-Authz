@@ -22,6 +22,7 @@ const createUserModel=(sequelize)=>{
         type:DataTypes.STRING,
         allowNull:false,
         unique:true
+        
     },
     refereshToken:{
         type:DataTypes.TEXT,
